@@ -6,8 +6,6 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-sorted_category = %w[chinese italian japanese french belgian].sample
-
 puts 'Cleaning data base'
 Restaurant.destroy_all
 
