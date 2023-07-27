@@ -7,8 +7,8 @@
     <li><strong>Category: </strong><%= @restaurant.category.capitalize %></li>
   </ul>
 
-  <%= link_to "Back", root_path %>
-  <%= link_to "Add review", new_restaurant_review_path(@restaurant) %>
+  <%= link_to "Add review", new_restaurant_review_path(@restaurant), class: 'btn btn-success' %>
+  <%= link_to "Back", root_path, class: 'btn btn-secondary' %>
 
   <hr>
 
