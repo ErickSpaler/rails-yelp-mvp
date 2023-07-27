@@ -4,7 +4,7 @@
     <% @restaurants.each do |restaurant| %>
       <ul>
         <li><%= restaurant.name %></li>
-        <li><%= restaurant.category %></li>
+        <%= link_to 'View details', restaurant_path(restaurant)  %>
       </ul>
     <% end  %>
 </div>
